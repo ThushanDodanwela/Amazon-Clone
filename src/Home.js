@@ -15,24 +15,75 @@ function Home() {
 
       <div className="home__row">
         <Product
-          title={"The Lean Startup"}
-          price={50.99}
+          id={"1234451"}
+          title={
+            "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
+          }
+          price={20.99}
           rating={5}
           image={
             "https://static-01.daraz.lk/p/ec7cf79d40178dcae04f367394a6629d.jpg"
           }
         />
-        <Product />
+        <Product
+          id={"1234452"}
+          title={
+            "Redragon S101 Wired Gaming Keyboard and Mouse Combo RGB Backlit Gaming Keyboard with Multimedia Keys Wrist Rest and Red Backlit Gaming Mouse 3200 DPI for Windows PC Gamers (Black)"
+          }
+          price={50.99}
+          rating={3}
+          image={
+            "https://m.media-amazon.com/images/I/71kr3WAj1FL._AC_SL1500_.jpg"
+          }
+        />
       </div>
 
       <div className="home__row">
-        <Product />
-        <Product />
-        <Product />
+        <Product
+          id={"1234453"}
+          title={
+            "AIMENGXI 3 in 1 Diamond Microdermabrasion Machine Professional Beauty Facial Skin Care Equipment Microdermabrasion Device with Vacuum Spray"
+          }
+          price={180.99}
+          rating={4}
+          image={"https://m.media-amazon.com/images/I/71ds-6sS6KL._SX466_.jpg"}
+        />
+        <Product
+          id={"1234454"}
+          title={
+            "Cosonsen Women's Dress Deep V-Neck Long Sleeve Waist Tie Ruffle Mini Swing Skater Dresses"
+          }
+          price={90.23}
+          rating={4}
+          image={
+            "https://m.media-amazon.com/images/I/5195ws6rUHL._AC_UX466_.jpg"
+          }
+        />
+        <Product
+          id={"1234455"}
+          title={
+            "Smart Watch, Fitness Tracker with Heart Rate Monitor for Women and Men"
+          }
+          price={110.25}
+          rating={4}
+          image={
+            "https://m.media-amazon.com/images/I/71bo79sXwyL._AC_SX466_.jpg"
+          }
+        />
       </div>
 
       <div className="home__row">
-        <Product />
+        <Product
+          id={"12344516"}
+          title={
+            "BSROT Men's Walking Tennis Shoes Athletic Running Shoes Breathable Comfortable Non Slip Fashion Sneakers"
+          }
+          price={280.0}
+          rating={5}
+          image={
+            "https://4.bp.blogspot.com/-j08zU37hpt4/W5aaDndpsWI/AAAAAAAAFoc/tq-c11-V1sgMDyFd5cB3Z6jsO2UICZiQgCK4BGAYYCw/s1600/CL-Banner.jpg"
+          }
+        />
       </div>
     </div>
   );
