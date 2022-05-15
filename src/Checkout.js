@@ -1,5 +1,6 @@
 import React from "react";
 import "./Checkout.css";
+import { useStatevalue } from "./StateProvider";
 import Subtotal from "./Subtotal";
 
 function Checkout() {
