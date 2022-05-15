@@ -76,12 +76,12 @@ function Home() {
         <Product
           id={"12344516"}
           title={
-            "BSROT Men's Walking Tennis Shoes Athletic Running Shoes Breathable Comfortable Non Slip Fashion Sneakers"
+            "SAMSUNG J791 Series 34-Inch Ultrawide QHD (3440x1440) Computer Monitor, 100Hz, Thunderbolt 3 Daisy Chain, QLED, HDMI, USB Hub, Height Adjustable Stand"
           }
-          price={280.0}
+          price={680.0}
           rating={5}
           image={
-            "https://4.bp.blogspot.com/-j08zU37hpt4/W5aaDndpsWI/AAAAAAAAFoc/tq-c11-V1sgMDyFd5cB3Z6jsO2UICZiQgCK4BGAYYCw/s1600/CL-Banner.jpg"
+            "https://m.media-amazon.com/images/I/61XDeaOrrKL._AC_SX679_.jpg"
           }
         />
       </div>
