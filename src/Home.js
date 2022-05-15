@@ -14,17 +14,26 @@ function Home() {
       </div>
 
       <div className="home__row">
+        <Product
+          title={"The Lean Startup"}
+          price={50.99}
+          rating={5}
+          image={
+            "https://static-01.daraz.lk/p/ec7cf79d40178dcae04f367394a6629d.jpg"
+          }
+        />
         <Product />
-        {/*product*/}
       </div>
 
       <div className="home__row">
-        {/*product*/}
-        {/*product*/}
-        {/*product*/}
+        <Product />
+        <Product />
+        <Product />
       </div>
 
-      <div className="home__row">{/*product*/}</div>
+      <div className="home__row">
+        <Product />
+      </div>
     </div>
   );
 }
